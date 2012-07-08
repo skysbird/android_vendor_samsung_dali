@@ -17,6 +17,10 @@
 # Prebuilt libraries that are needed to build open-source libraries
 
 
+# spn
+PRODUCT_COPY_FILES += \
+  vendor/samsung/celoxhd/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml
+
 # BT FW
 PRODUCT_COPY_FILES += \
   vendor/samsung/celoxhd/proprietary/etc/firmware/bcm4330B1.hcd:system/etc/firmware/bcm4330B1.hcd
@@ -112,13 +116,13 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-  vendor/samsung/celoxhd/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
   vendor/samsung/celoxhd/proprietary/lib/libakm.so:system/lib/libakm.so \
   vendor/samsung/celoxhd/proprietary/etc/firmware/dsps_fluid.b00:system/etc/firmware/dsps_fluid.b00 \
   vendor/samsung/celoxhd/proprietary/etc/firmware/dsps_fluid.b01:system/etc/firmware/dsps_fluid.b01 \
   vendor/samsung/celoxhd/proprietary/etc/firmware/dsps_fluid.b02:system/etc/firmware/dsps_fluid.b02 \
   vendor/samsung/celoxhd/proprietary/etc/firmware/dsps_fluid.b03:system/etc/firmware/dsps_fluid.b03 \
   vendor/samsung/celoxhd/proprietary/etc/firmware/dsps_fluid.mdt:system/etc/firmware/dsps_fluid.mdt
+  vendor/samsung/celoxhd/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so 
 
 # Service binaries
 PRODUCT_COPY_FILES += \
