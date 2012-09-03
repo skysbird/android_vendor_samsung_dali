@@ -48,8 +48,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
   vendor/samsung/dali/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/samsung/dali/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+  vendor/samsung/dali/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
   vendor/samsung/dali/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-  vendor/samsung/dali/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
   vendor/samsung/dali/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/samsung/dali/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/samsung/dali/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
@@ -57,13 +57,17 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/dali/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
   vendor/samsung/dali/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
   vendor/samsung/dali/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-  vendor/samsung/dali/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
+  vendor/samsung/dali/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+  vendor/samsung/dali/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+  vendor/samsung/dali/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.pw \
+  vendor/samsung/dali/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw 
 
 # Framebuffer support
 PRODUCT_COPY_FILES += \
   vendor/samsung/dali/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/samsung/dali/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-  vendor/samsung/dali/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so
+   vendor/samsung/dali/proprietary/lib/libC2D2.so:system/lib/libc2d2_z180.so \
+ vendor/samsung/dali/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so
 
 # GPS
 PRODUCT_COPY_FILES += \
