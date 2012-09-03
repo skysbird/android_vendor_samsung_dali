@@ -66,8 +66,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
   vendor/samsung/dali/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/samsung/dali/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-   vendor/samsung/dali/proprietary/lib/libC2D2.so:system/lib/libc2d2_z180.so \
- vendor/samsung/dali/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so
+  vendor/samsung/dali/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+  vendor/samsung/dali/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -125,7 +125,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/dali/proprietary/etc/firmware/dsps_fluid.b01:system/etc/firmware/dsps_fluid.b01 \
   vendor/samsung/dali/proprietary/etc/firmware/dsps_fluid.b02:system/etc/firmware/dsps_fluid.b02 \
   vendor/samsung/dali/proprietary/etc/firmware/dsps_fluid.b03:system/etc/firmware/dsps_fluid.b03 \
-  vendor/samsung/dali/proprietary/etc/firmware/dsps_fluid.mdt:system/etc/firmware/dsps_fluid.mdt
+  vendor/samsung/dali/proprietary/etc/firmware/dsps_fluid.mdt:system/etc/firmware/dsps_fluid.mdt \
   vendor/samsung/dali/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so 
 
 # Service binaries
