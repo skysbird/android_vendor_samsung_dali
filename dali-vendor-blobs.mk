@@ -17,10 +17,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 
 
-# spn
-PRODUCT_COPY_FILES += \
-  vendor/samsung/dali/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml
-
 # BT FW
 PRODUCT_COPY_FILES += \
   vendor/samsung/dali/proprietary/etc/firmware/bcm4330B1.hcd:system/etc/firmware/bcm4330B1.hcd
