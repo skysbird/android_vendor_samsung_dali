@@ -156,6 +156,4 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/dali/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/samsung/dali/proprietary/lib/libv8.so:obj/lib/libv8.so \
   vendor/samsung/dali/proprietary/bin/port-bridge:system/bin/port-bridge \
-  vendor/samsung/dali/proprietary/bin/usbhub:system/bin/usbhub \
-  vendor/samsung/dali/proprietary/bin/usbhub_init:system/bin/usbhub_init
 
